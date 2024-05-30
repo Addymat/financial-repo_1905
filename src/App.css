@@ -1,0 +1,469 @@
+@media screen and (max-width:1300px){
+    .App {
+        display: flex;
+        height:100vh;
+        overflow: hidden;
+      }
+      
+      .dashb {
+        background-color:#282c34;
+      }
+
+      .drpdwn{
+        
+        background-color:#282c34;      }
+      
+      
+      
+      
+      .sentiment{
+        background-color: #343a40;
+        width:fit-content;
+        border-radius: 50px;
+      
+        
+      }
+      
+      .linechart{
+      
+        border-radius: 10px;
+        border-width: 0cm;
+        height:260px;
+        width:44%;   
+        margin-left: 5px;
+      }
+      
+      
+      .summary{
+      
+        height: 250px;
+        margin-left: 10px;
+        
+      
+        
+        
+      
+      }
+      .price{
+      
+        height: 300px;
+        margin-left: 10px;
+        
+      
+        
+        
+      
+      }
+      
+      .sector{
+      
+        margin-left: 15px;
+        
+        
+      
+      }
+      
+      .list-items{
+        font-size: small;
+      }
+      
+      
+      
+      
+      .signin{
+           
+        background-color: black;
+        padding:20px;
+        border-radius: 2%;
+        opacity: 0.8;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        
+       
+      }
+      
+      .sign-text{
+        color:white;
+        margin:10px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:20px;
+      }
+      
+      
+      
+      .email{
+        padding:10px;
+        margin:10px;
+        background-color: slategray ;
+        color: white;
+        
+      
+        
+        
+        
+        
+      
+      }
+
+      
+      
+
+      .pw{
+            
+        padding:10px;
+        margin:10px;
+        background-color:slategrey;
+        text-decoration: white;
+        color:white;
+      
+      
+        
+      }
+      
+      .errmess{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+        margin:12px;
+      
+        
+      }
+      
+      .sign{
+        padding:10px;
+        margin:10px;
+        margin-top:10px;
+        width:92%;
+        
+        background-color: red;
+        border-radius: 10px;
+        border-color: white;
+        color:white;
+        border: white;
+        
+      
+        
+        
+      }
+      
+      
+      .newsign{
+        color:white;
+        margin-left: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+      }
+      
+      
+      .newsignlink{
+        
+        text-decoration: underline;
+        color:white;
+        margin-left: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+      
+      }
+      
+      .newsignlink:hover{
+        cursor:pointer;
+      }
+      
+      @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+          animation: App-logo-spin infinite 20s linear;
+        }
+      }
+      
+      .App-header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+      }
+      
+      .homes{
+        padding-top: 16%;
+      }
+      
+      .search{
+        margin-top:-160px;
+      }
+      
+      .settings{
+        margin-top: 370px;
+        margin-left: -4px;
+      }
+      
+      .navopt {
+        width: 250px;
+        background-color: #343a40;
+        color: white;
+      }
+      
+      
+      .App-link {
+        color: #61dafb;
+      }
+      
+      @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      
+    
+}
+
+@media screen and (max-width:768px){
+    .App {
+        display: flex;
+        overflow: scroll;
+        height: max-content;
+        
+      }
+      
+      .dashb {
+        background-color:#282c34;
+      }
+
+      .drpdwn{
+        
+        background-color:#282c34;      }
+      
+      
+      
+      
+      .sentiment{
+        background-color: #343a40;
+        width:fit-content;
+        border-radius: 50px;
+      
+        
+      }
+      
+      .linechart{
+      
+        border-radius: 10px;
+        border-width: 0cm;
+        height:260px;
+        width:94%;   
+        margin-left: 5px;
+      }
+      
+      
+      .summary{
+      
+        height: 250px;
+        width:90%;
+        margin-bottom:5px;
+        
+      
+        
+        
+      
+      }
+      .price{
+      
+        width:90%;
+        height: 300px;
+        margin-left: 16px;
+        
+      
+        
+        
+      
+      }
+      
+      .sector{
+      
+        width:90%;
+        
+        
+      
+      }
+      
+      .list-items{
+        font-size: small;
+      }
+      
+      .login-page{
+        
+        background-color: black;
+      }
+      
+      
+      .signin{
+           
+        background-color: black;
+        padding:20px;
+        border-radius: 2%;
+        opacity: 0.8;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        
+       
+      }
+      
+      .sign-text{
+        color:white;
+        margin:10px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:20px;
+      }
+      
+      
+      
+      .email{
+        padding:10px;
+        margin:10px;
+        background-color: slategray ;
+        color: white;
+        
+      
+        
+        
+        
+        
+      
+      }
+
+     
+
+      
+      
+
+      .pw{
+            
+        padding:10px;
+        margin:10px;
+        background-color:slategrey;
+        text-decoration: white;
+        color:white;
+      
+      
+        
+      }
+      
+      .errmess{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+        margin:12px;
+      
+        
+      }
+      
+      .sign{
+        padding:10px;
+        margin:10px;
+        margin-top:10px;
+        width:92%;
+        
+        background-color: red;
+        border-radius: 10px;
+        border-color: white;
+        color:white;
+        border: white;
+        
+      
+        
+        
+      }
+      
+      
+      .newsign{
+        color:white;
+        margin-left: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+      }
+      
+      
+      .newsignlink{
+        
+        text-decoration: underline;
+        color:white;
+        margin-left: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+      
+      }
+      
+      .newsignlink:hover{
+        cursor:pointer;
+      }
+
+
+      .small{
+
+        padding:100px;
+        scrollbar-width: 0px;
+
+      }
+      
+      @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+          animation: App-logo-spin infinite 20s linear;
+        }
+      }
+      
+      .App-header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+      }
+      
+      .homes{
+        padding-top: 16%;
+      }
+      
+      .search{
+        margin-top:-160px;
+      }
+      
+      .settings{
+        margin-top: 370px;
+        margin-left: -4px;
+      }
+      
+      .navopt {
+        width: 250px;
+        background-color: #343a40;
+        color: white;
+      }
+      
+      
+      .App-link {
+        color: #61dafb;
+      }
+      
+      @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      
+    
+}
